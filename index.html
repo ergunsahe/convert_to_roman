@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convert Romans</title>
+    <style>
+        body{
+            align-items: center;
+            background-color: #e8eaf6;
+            
+            
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 10%;
+        }
+        label{
+            color:#7e57c2;
+            font-weight: bold;
+            font-size: 20px;
+            margin: 15px;
+        }
+        #number{
+            margin: 18px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 0px;
+        }
+        #btn{
+            padding: 8px;
+            font-size: 18px;
+            border: 0px;
+            background-color: #f48fb1;
+            border-radius: 10px;
+            color: #e8eaf6;
+        }
+        #display{
+            color: #7e57c2;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label >Enter A Number</label>
+        <input type="number" name="number" id="number" placeholder="write a number to convert...">
+        <button type="submit" id="btn">Convert</button>
+        <p id="display"></p>
+    </div>
+
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
